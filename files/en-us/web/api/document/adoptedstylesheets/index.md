@@ -58,7 +58,7 @@ sheet.insertRule("* { background-color: blue; }");
 
 ### Append a new stylesheet
 
-To append a whole new stylesheet to the `adoptedStyleSheets` property we have to create and assign a new combined array.
+To append a whole new stylesheet to the `adoptedStyleSheets` property we can mutate the existing array or create and assign a new combined array.
 This is demonstrated below using spread-syntax:
 
 ```js
